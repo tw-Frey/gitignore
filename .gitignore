@@ -146,6 +146,9 @@ build/
 gradle-app.setting
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+#!gradle-wrapper.jar
 
+# 以下認為可略, by Faty, 2015-09-25
+gradle/
+gradlew*
 
