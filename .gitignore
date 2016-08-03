@@ -166,3 +166,7 @@ gradle-app.setting
 # 以下認為可略, by Faty, 2015-09-25
 gradle/
 gradlew*
+
+# 敏感性 KV 及 keystore, 應被忽略, by Faty, 2016-08-02
+security.properties
+*.keystore
